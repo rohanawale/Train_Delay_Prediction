@@ -1,0 +1,80 @@
+* {
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: #fff;
+	font-family: 'Lato',sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	text-rendering: optimizeLegibility;
+	scroll-behavior: smooth;
+
+}
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  background-image: linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)),url('train.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-right: auto;
+  margin-left: auto;
+  left: 50%;
+  right: 50%;
+  color: #fff;
+  
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background-color: #000;
+  border-radius: 100px;
+  opacity: 0.2;
+  color: #298dd9;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #e31426;
+  outline: none;
+  color: #ffffff;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #fff;
+  margin-bottom: 22px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  margin: 6px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+h1,
+p,
+label{
+	color: #fff;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+

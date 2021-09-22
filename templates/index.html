@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='normalize.css') }}">
+	<title>
+		Train Delay Prediction
+	</title>
+</head>
+<body>
+	<form action="/submit">
+	    <div class="container">
+		    <h1>Train Delay Prediction</h1>
+		    <p>Enter Train Details to get information</p>
+		    <hr>
+		    <label for="Train-name">Enter PNR<b></b></label>
+		    <input type="text" placeholder="Enter Nine Digit PNR" name="email" id="train name" required>
+
+		    <label for="date-of-journey">Date of journey<b></b></label>
+		    <input type="text" placeholder="Enter Date in DDMMYY" name="sdate" id="sdate" required>
+
+		    <label for="Train-name">Name of Train<b></b></label>
+		    <input type="text" placeholder="Enter Train name" name="strain" id="stime" required>
+
+		    <label for="journey-time">Time of journey<b></b></label>
+		    <input type="text" placeholder="Enter time in HHMM" name="stime" id="stime" required>
+
+		    <button type="submit" value="Submit" class="registerbtn">Submit</button>
+		</div>
+	</form>
+
+	
+</body>
+</html>
+
